@@ -7,7 +7,6 @@
     "browser-sync": "browser-sync start --server --serveStatic dist --files dist/*.*",
     "webpack": "webpack --watch --mode development",
     "dev": "npm-run-all -p webpack browser-sync"
-    
   },
   "author": "",
   "license": "ISC",
@@ -19,6 +18,7 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
+    "animejs": "^3.2.2",
     "just-validate": "^4.3.0",
     "swiper": "^11.1.4"
   }

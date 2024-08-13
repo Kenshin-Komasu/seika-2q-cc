@@ -115,3 +115,4 @@ swiper2.on('slideChange', function(){
   titleElement2 = document.createTextNode(titles[swiper2.realIndex])
   titleContainer2.appendChild(titleElement2);
 });
+
