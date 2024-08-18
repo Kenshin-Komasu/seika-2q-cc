@@ -13,7 +13,7 @@ anime({
   var circles = [];
   
   var colorPicker = (function() {
-    var colors = ["#FF6138", "#7FFFD4", "#2980B9", "#282741", "#A52A2A",];
+    var colors = ["#FF6138", "#7FFFD4", "#2980B9", "#7FFF00", ];
     var index = 0;
     function next() {
       index = index++ < colors.length-1 ? index : 0;
